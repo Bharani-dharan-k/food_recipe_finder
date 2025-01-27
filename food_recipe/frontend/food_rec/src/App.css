@@ -1,0 +1,272 @@
+/* Ensure the body takes the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Wrapper for the page */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #34495e;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .link {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar .link:hover {
+  text-decoration: underline;
+  color: #16a085;
+}
+
+/* Main Content Styling */
+.content {
+  text-align: center;
+  padding: 40px;
+  flex: 1; /* This ensures the content takes up all available space */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+/* Headings */
+.content h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+/* Image Styling */
+.content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* General Body and Container Styling */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.signup-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+/* Form Styling */
+.signup-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #34495e;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  color: #34495e;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1abc9c;
+  background-color: #ffffff;
+}
+
+/* Submit Button Styling */
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #16a085;
+}
+
+/* Link to Login page */
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* General Body and Container Styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+/* Form Styling */
+.login-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #34495e;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  color: #34495e;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1abc9c;
+  background-color: #ffffff;
+}
+
+/* Submit Button Styling */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #16a085;
+}
+
+/* Link to Signup page */
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-link a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
