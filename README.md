@@ -21,7 +21,7 @@ Food Recipe Finder is a React-based web application that allows users to search 
 
 ### Recipe List
 
-![recipe finder page](food_recipe/frontend/food_rec/src/images/recipefinder (1).png)
+![recipe finder page](food_recipe/frontend/food_rec/src/images/recipefinder.png)
 *See a list of recipes matching your search query.*
 
 
