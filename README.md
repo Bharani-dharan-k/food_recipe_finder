@@ -12,31 +12,18 @@ Food Recipe Finder is a React-based web application that allows users to search 
 ---
 
 
-## Screenshots
-![Sample Image 1](./src/images/sample1.png)
-![Sample Image 2](./src/images/sample2.png)
-![Sample Image 3](./src/images/sample3.png)
-
-*Screenshots showing the app functionality.*
-
----
 
 ### Home Page
 
-![Search Page](https://via.placeholder.com/600x300?text=Search+Page)
+![Home page](food_recipe/frontend/food_rec/src/images/image1.jpg)
+
 *Search recipes by entering keywords like "apple" or "pasta".*
 
 ### Recipe List
 
-![Recipe List](https://via.placeholder.com/600x300?text=Recipe+List)
+![recipe finder page](food_recipe/frontend/food_rec/src/images/image1.jpg)
 *See a list of recipes matching your search query.*
 
-### Recipe Details
-
-![Recipe Details](https://via.placeholder.com/600x300?text=Recipe+Details)
-*View detailed information about a selected recipe.*
-
----
 
 ## Prerequisites
 To run this project, ensure you have the following installed:
@@ -87,30 +74,15 @@ This project uses the **Spoonacular API** for fetching recipe data.
 
 ---
 
-## Folder Structure
-```
-food-recipe-finder/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── RecipeFinder.jsx
-│   │   └── Footer.jsx
-│   │   └── Navbar.jsx
-│   │   └── Home.jsx
-│   ├── index.js
-│   ├── App.css
-│   └── App.js
-├── package.json
-└── README.md
-```
-
----
 
 ## Technologies Used
 
-- **React.js**: Frontend framework for building user interfaces.
-- **Bootstrap**: CSS framework for responsive design.
-- **Spoonacular API**: For recipe data.
+- **React.js**
+- **Bootstrap**
+- **Spoonacular API**
+- - **Node.js**
+- **MongoDB**
+- **Express.js**
 
 ---
 
