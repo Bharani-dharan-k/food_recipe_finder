@@ -7,7 +7,7 @@ function RecipeFinder() {
   const [selectedMeal, setSelectedMeal] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
 
-  const API_KEY = "f818ca39663a4704824ca07839c736ac"; // Your Spoonacular API key
+  const API_KEY = ""; // Your Spoonacular API key
 
   const handleSearch = () => {
     fetch(
